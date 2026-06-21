@@ -11,6 +11,15 @@
     "postinstall": "ngcc --tsconfig \"./src/tsconfig.app.json\""
   },
   "private": true,
+  "overrides": {
+    "esbuild": "0.26.0",
+    "webpack": "5.102.1",
+    "@babel/runtime": "8.0.0-beta.3",
+    "webpack-dev-server": "5.2.2",
+    "parseuri": "3.0.2",
+    "socket.io-parser": "4.2.4",
+    "postcss": "8.5.6"
+  },
   "dependencies": {
     "@angular-builders/custom-webpack": "^15.0.0",
     "@angular-devkit/build-angular": "^15.0.4",
